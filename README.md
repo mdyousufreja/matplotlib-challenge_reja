@@ -24,33 +24,34 @@ Module 5 Challenge [files](https://courses.bootcampspot.com/courses/3819/assignm
 
 This assignment is broken down into the following tasks:
 
-- Prepare the data.
+- Prepared the data.
 
-- Generate summary statistics.
+- Generated summary statistics.
 
-- Create bar charts and pie charts.
+- Created bar charts and pie charts.
 
-- Calculate quartiles, find outliers, and create a box plot.
+- Calculated quartiles, find outliers, and create a box plot.
 
-- Create a line plot and a scatter plot.
+- Created a line plot and a scatter plot.
 
-- Calculate correlation and regression.
+- Calculated correlation and regression.
 
-- Submit your final analysis.
+- Submitted my final analysis.
 
 ### Prepare the Data ###
 
-  1. Run the provided package dependency and data imports, and then merge the **mouse_metadata** and **study_results** DataFrames into a single DataFrame.
+  1. Ran the provided package dependency and data imports, and then merged the **mouse_metadata** and **study_results** DataFrames into a single DataFrame.
 
-  2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
+  2. Displayed the number of unique mice IDs in the data, and then checked for any mouse ID with duplicate time points. Displayed the data associated with that mouse ID, and then created a new DataFrame where   
+     this data is removed. Used this cleaned DataFrame for the remaining steps.
 
-  3. Display the updated number of unique mice IDs.
+  3. Displayed the updated number of unique mice IDs.
 
 ### Generate Summary Statistics ###
 
-Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
+Created a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method I used is less important than the result.
 
-Your summary statistics should include:
+My summary statistics included:
 
 - A row for each drug regimen. These regimen names should be contained in the index column.
 
@@ -58,47 +59,48 @@ Your summary statistics should include:
 
 ### Create Bar Charts and Pie Charts ###
 
- 1. Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
+ 1. Generated two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
 
-    - Create the first bar chart with the Pandas **DataFrame.plot()** method.
+    - Created the first bar chart with the Pandas **DataFrame.plot()** method.
 
-     - Create the second bar chart with Matplotlib's **pyplot** methods.
+     - Created the second bar chart with Matplotlib's **pyplot** methods.
 
- 2. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
+ 2. Generated two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
+     - Created the first pie chart with the Pandas **DataFrame.plot()** method.
 
-     - Create the first pie chart with the Pandas **DataFrame.plot()** method.
-
-     - Create the second pie chart with Matplotlib's **pyplot** methods.
+     - Created the second pie chart with Matplotlib's **pyplot** methods.
 
 ### Calculate Quartiles, Find Outliers, and Create a Box Plot ###
 
- 1. Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if     
+ 1. Calculated the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if     
     there are any potential outliers across all four treatment regimens. Use the following substeps:
 
-     - Create a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
+     - Created a grouped DataFrame that shows the last (greatest) time point for each mouse. Merge this grouped DataFrame with the original cleaned DataFrame.
 
-     - Create a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
+     - Created a list that holds the treatment names as well as a second, empty list to hold the tumor volume data.
 
-     - Loop through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Append the resulting final tumor volumes for each drug to the empty list.
+     - Looped through each drug in the treatment list, locating the rows in the merged DataFrame that correspond to each treatment. Appended the resulting final tumor volumes for each drug to the empty list.
 
-     - Determine outliers by using the upper and lower bounds, and then print the results.
+     - Determined outliers by using the upper and lower bounds, and then printed the results.
 
- 2. Using Matplotlib, generate a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlight any potential outliers in the plot by changing their color and      style.
+ 2. Using Matplotlib, generated a box plot that shows the distribution of the final tumor volume for all the mice in each treatment group. Highlighted any potential outliers in the plot by changing their color 
+    and style.
 
-**hint**: All four box plots should be within the same figure. Use this [Matplotlib documentation pageLinks](https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html) to an external site. for help with changing the style of the outliers.
+**hint**: All four box plots should be within the same figure. Used this [Matplotlib documentation pageLinks](https://matplotlib.org/stable/gallery/statistics/boxplot_demo.html) to an external site. for help   
+          with changing the style of the outliers.
 
 ### Create a Line Plot and a Scatter Plot ###
 
-1. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+1. Selected a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
-2. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+2. Generated a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
 
 ### Calculate Correlation and Regression ###
 
-1. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
+1. Calculated the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
 
-2. Plot the linear regression model on top of the previous scatter plot.
+2. Plotted the linear regression model on top of the previous scatter plot.
 
    
 ### References ###
