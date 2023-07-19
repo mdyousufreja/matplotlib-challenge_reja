@@ -5,7 +5,7 @@ What good is data without a good plot to tell the story?
 
 In this assignment, you’ll apply what you've learned about Matplotlib to a real-world situation and dataset.
 
-**Background**
+ # Background #
 
 You've just joined Pymaceuticals, Inc., a new pharmaceutical company that specializes in anti-cancer medications. Recently, it began screening for potential treatments for squamous cell carcinoma (SCC), a commonly occurring form of skin cancer.
 
@@ -13,14 +13,14 @@ As a senior data analyst at the company, you've been given access to the complet
 
 The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
 
-**Files**
+## Files ##
 
 Downloaded the following files to get started:
 
 Module 5 Challenge [files](https://courses.bootcampspot.com/courses/3819/assignments/56675?module_item_id=999492)
 
 
-**Instructions**
+## Instructions ##
 
 This assignment is broken down into the following tasks:
 
@@ -90,11 +90,12 @@ Your summary statistics should include:
 
 **Create a Line Plot and a Scatter Plot**
 
-Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
+1. Select a single mouse that was treated with Capomulin, and generate a line plot of tumor volume versus time point for that mouse.
 
-Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
+2. Generate a scatter plot of mouse weight versus average observed tumor volume for the entire Capomulin treatment regimen.
 
-Calculate Correlation and Regression
-Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
+**Calculate Correlation and Regression**
 
-Plot the linear regression model on top of the previous scatter plot.
+1. Calculate the correlation coefficient and linear regression model between mouse weight and average observed tumor volume for the entire Capomulin treatment regimen.
+
+2. Plot the linear regression model on top of the previous scatter plot.
