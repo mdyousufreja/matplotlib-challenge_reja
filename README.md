@@ -52,16 +52,17 @@ Create a DataFrame of summary statistics. Remember, there is more than one metho
 
 Your summary statistics should include:
 
-A row for each drug regimen. These regimen names should be contained in the index column.
+- A row for each drug regimen. These regimen names should be contained in the index column.
 
-A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+- A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
-Create Bar Charts and Pie Charts
-Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
+**Create Bar Charts and Pie Charts**
 
-Create the first bar chart with the Pandas DataFrame.plot() method.
+ - Generate two bar charts. Both charts should be identical and show the total total number of rows (Mouse ID/Timepoints) for each drug regimen throughout the study.
 
-Create the second bar chart with Matplotlib's pyplot methods.
+    - Create the first bar chart with the Pandas DataFrame.plot() method.
+
+     - Create the second bar chart with Matplotlib's pyplot methods.
 
 Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
